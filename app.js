@@ -142,5 +142,5 @@ app.listen(3002,()=>{
     console.log("Listening at 3002");
 })
 
-
+module.exports = app;
 
