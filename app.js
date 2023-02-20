@@ -1,14 +1,13 @@
 const express = require('express');
-//Qwerty222
 const app = express();
 const mongoose = require('mongoose');
 
-const cors = require('cors');
+// const cors = require('cors');
 
-const corsOptions = {
-    origin: "https://kmitron-server.vercel.app"
-  };
-app.use(cors(corsOptions));
+// const corsOptions = {
+//     origin: "https://kmitron-server.vercel.app"
+//   };
+// app.use(cors(corsOptions));
 
 
 async function run(){
