@@ -4,7 +4,11 @@ const app = express();
 const mongoose = require('mongoose');
 
 const cors = require('cors');
-app.use(cors());
+
+const corsOptions = {
+    origin: "https://kmitron-server.vercel.app"
+  };
+app.use(corsOptions());
 
 
 async function run(){
