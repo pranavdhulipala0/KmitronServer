@@ -3,6 +3,10 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 
+const cors = require('cors');
+app.use(cors());
+
+
 async function run(){
     await mongoose.connect("mongodb+srv://Kmitron:Qwerty222@cluster0.134rxcq.mongodb.net/Articles?retryWrites=true&w=majority",(err)=>{
     if(err){
