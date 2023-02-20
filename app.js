@@ -1,13 +1,10 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-
-// const cors = require('cors');
-
-// const corsOptions = {
-//     origin: "https://kmitron-server.vercel.app"
-//   };
-// app.use(cors(corsOptions));
+const cors = require('cors');
+app.use(cors({
+    origin:"https://statuesque-stardust-327c58.netlify.app"
+}));
 
 
 async function run(){
