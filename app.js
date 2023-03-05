@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const cors = require('cors');
 app.use(cors({
-    origin:"https://kmitron.netlify.app"
+    origin:"https://kmitron.netlify.app/"
 }));
 
 
